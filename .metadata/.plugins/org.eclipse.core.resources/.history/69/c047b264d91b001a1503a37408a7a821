@@ -1,0 +1,10 @@
+package com.swami.dev;
+
+public class Contact {
+
+	public String getId() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.swami.dev.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "Vehicle")
+public class Vehicle {
+
+	
+	
+}

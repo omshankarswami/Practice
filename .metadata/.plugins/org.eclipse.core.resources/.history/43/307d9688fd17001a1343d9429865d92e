@@ -1,0 +1,9 @@
+package com.swami.dev.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.swami.dev.model.Customer;
+
+public interface CustomerRepository extends JpaRepository<Customer, Integer> {
+
+}

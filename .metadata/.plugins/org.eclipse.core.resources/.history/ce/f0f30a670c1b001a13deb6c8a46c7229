@@ -1,0 +1,28 @@
+package com.swami.dev.config;
+
+import org.springframework.data.mongodb.config.AbstractMongoConfiguration;
+
+import com.mongodb.MongoClient;
+
+public class MongoConfig extends AbstractMongoConfiguration{
+
+	@Override
+	public MongoClient mongoClient() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	protected String getDatabaseName() {
+		// TODO Auto-generated method stub
+		return "test";
+	}
+	
+	
+	
+	
+	
+	
+	
+
+}

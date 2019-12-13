@@ -1,0 +1,13 @@
+package com.swami.dev.model;
+
+public class Employee {
+	
+	
+	
+	@Id 
+	 private @NonNull String id;
+	 private @NonNull String firstName;
+	 private @NonNull String lastName;
+	 private @NonNull String email;
+
+}

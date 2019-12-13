@@ -1,0 +1,14 @@
+package com.map;
+
+public class Hello {
+	
+	
+	
+	public static void main(String[] args) {
+		
+		 List<String> numbers = Arrays.asList("1", "2", "3", "4", "5", "6");
+		
+		
+	}
+
+}

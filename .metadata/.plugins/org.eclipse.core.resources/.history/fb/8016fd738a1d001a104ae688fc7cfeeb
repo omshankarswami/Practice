@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+
+<h1 th:text="#{welcome.message}"></h1>
+
+<span th:text="#{language.change}"></span>:
+<select id="locales">
+    <option value=""></option>
+    <option value="en" th:text="#{lang.eng}"></option>
+    <option value="de" th:text="#{lang.de}"></option>
+</select>
+
+
+</body>
+</html>

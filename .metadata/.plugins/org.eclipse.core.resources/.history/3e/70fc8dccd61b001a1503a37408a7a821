@@ -1,0 +1,23 @@
+package com.swami.dev;
+
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
+
+public class AddressBookResource {
+	
+	public Contact getContact(@PathVariable String id)
+	{
+		
+	}
+
+	
+	public List<Contact> getAllContacts()
+	{
+		
+	}
+	
+	public Contact addContact(@RequestBody Contact contact)
+	{
+		
+	}
+}

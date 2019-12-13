@@ -1,0 +1,28 @@
+package com.swami.dev;
+
+import java.util.Locale;
+
+import org.apache.tomcat.util.descriptor.LocalResolver;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+import org.springframework.web.servlet.i18n.SessionLocaleResolver;
+
+@SpringBootApplication
+public class SpringBootRestInternationalizationApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringBootRestInternationalizationApplication.class, args);
+	}
+
+	
+	
+	
+	@Bean
+	public LocalResolver localResolver()
+	{
+		SessionLocaleResolver slr =  new SessionLocaleResolver();
+		slr.setDefaultLocale(Locale.US);
+		return slr;
+	}
+}

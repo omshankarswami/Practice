@@ -1,0 +1,19 @@
+package com.swami.dev.model;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "Vehicle")
+public class Vehicle {
+	@Id
+	@GeneratedValue
+	int id;
+	String make;
+	String model;
+	String type;
+	int year;
+	
+}

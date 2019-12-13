@@ -1,0 +1,15 @@
+package com.swami.dev.model;
+
+import org.springframework.data.annotation.Id;
+
+import lombok.NonNull;
+
+public class Employee {
+	
+	@Id 
+	 private @NonNull String id;
+	 private @NonNull String firstName;
+	 private @NonNull String lastName;
+	 private @NonNull String email;
+
+}
